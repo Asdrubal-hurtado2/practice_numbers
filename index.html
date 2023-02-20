@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio Numeros</title>
+</head>
+<body>
+    
+    <label>Escribe numero:</label>
+     <input type="number" id="input" placeholder="Escribe numero">
+     <button onclick="print()">Print</button>
+
+     <div id="list">
+
+     </div>
+
+     <script>
+
+     function print(){
+        console.clear()
+        var num = document.getElementById('input').value
+         for(var i = 0; i <=50; i = i + parseInt(num)){
+            document.getElementById('list').innerHTML = "<h5>" +
+            console.log(i)
+         }
+         
+     }
+     
+
+     </script>
+
+</body>
+</html>
+
+<!-- git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Asdrubal-hurtado2/practice_numbers.git
+git push -u origin main -->
